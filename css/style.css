@@ -116,12 +116,22 @@ header .container{
 .feature-section{
     padding: 50px 0px;
 }
-.feature-section .container{justify-content: center;}
+.feature-section .container{
+    justify-content: center;
+}
 .feature-section .container .col-4{
     padding: 15px;
     width: 25%;
 }
-.feature-section .container .col-4 .feature{text-align: center;background: honeydew;padding: 40px 30px;}
+.feature-section .container .col-4 .feature{
+    text-align: center;
+    background: honeydew;
+    padding: 40px 30px;
+    transition-duration: 0.3s;
+}
+.feature-section .container .col-4 .feature:hover{
+    background: #fff;
+}
 .feature-section .container .col-4 .feature img{
     height: 80px;
     /* width: 63px; */
